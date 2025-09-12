@@ -33,7 +33,7 @@ def on_motion(event):
 root = tk.Tk()
 root.overrideredirect(True)
 root.geometry("320x220")
-root.configure(bg="#39FF14")  # neon green
+root.configure(bg="lightblue")  # πριν ήταν neon green
 
 # Custom title bar
 title_bar = tk.Frame(root, bg="#00FF00", relief="raised", bd=0, height=30)
